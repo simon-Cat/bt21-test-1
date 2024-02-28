@@ -1,0 +1,16 @@
+@import url(./blocks/user-data/user-data.css);
+@import url(./blocks/main/main.css);
+@import url(./blocks/button/button.css);
+@import url(./blocks/button/_hidden/button_hidden.css);
+@import url(./blocks/button/_type/button_type_start.css);
+@import url(./blocks/button/_type/button_type_send.css);
+@import url(./blocks/popup/popup.css);
+@import url(./blocks/bg-layer/bg-layer.css);
+@import url(./blocks/form/form.css);
+
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}

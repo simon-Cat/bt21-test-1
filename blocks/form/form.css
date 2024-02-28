@@ -1,0 +1,9 @@
+@import url(./__inputs-group/form__inputs-group.css);
+@import url(./__input/form__input.css);
+@import url(./__button/form__button.css);
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 14px;
+}

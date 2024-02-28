@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BT21 test 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main">
+        <p class="user-data"></p>
+        <button class="button button_type_start">Начать</button>
+        <div class="bg-layer bg-layer_hidden"></div>
+        <div class="popup popup_hidden">
+            <p class="popup__title">Заполните необходмые данные</p>
+            <form action="#" class="popup__form form">
+                <fieldset class="form__inputs-group">
+                    <label>Имя
+                        <input id="name" type="text" class="form__input">
+                    </label>
+                    <label>
+                        Фамилия
+                        <input id="surname" type="text" class="form__input">
+                    </label>
+                    <label>
+                        Электолнная почта
+                        <input id="email" type="email" class="form__input">
+                    </label>
+                    <label>
+                        Пароль
+                        <input id="password" type="password" class="form__input">
+                    </label>
+                    <label>
+                        Подтвердите пароль
+                        <input id="confirm-password" type="password" class="form__input">
+                    </label>
+                </fieldset>
+                <button type="submit" class="button button_type_send form__button">Отправить</button>
+            </form>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

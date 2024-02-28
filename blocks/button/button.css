@@ -1,0 +1,19 @@
+@import url(./_hidden/button_hidden.css);
+
+.button {
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(128, 186, 237);
+    font-weight: 400;
+    color: #fff;
+    transition: background-color .4s ease, color .4s ease, outline .4s ease;
+    cursor: pointer;
+    padding: 12px 14px;
+    font-size: 16px;
+}
+
+.button:hover {
+    color: rgb(128, 186, 237);
+    background-color: #fff;
+    outline: 1px solid rgb(128, 186, 237);
+}

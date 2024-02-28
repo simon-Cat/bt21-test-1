@@ -1,0 +1,10 @@
+@import url(./__title/popup__title.css);
+@import url(./_hidden/popup_hidden.css);
+
+.popup {
+    max-width: 500px;
+    position: absolute;
+    z-index: 20;
+    background: #FFF;
+    border-radius: 4px;
+}
